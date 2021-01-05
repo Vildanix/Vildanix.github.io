@@ -89,6 +89,7 @@ ul li {
 
 .alignleft {
 	float: left;
+	margin-right: 10px;
 }
 
 .material-icons{
