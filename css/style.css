@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: rgb(91,106,232);
+	background: radial-gradient(circle, #777 13%, #222 80%);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333;
+	background-size: 100% 190%;
+}
+
+a {
+  text-decoration: none;
+  color: #d2a700;
+}
+	
+a:hover {
+    color: #f2c700;
+}
+
+article#main {
+	display: flex;
+	width: 100%;
+	max-width: 1100px;
+	padding: 30px;
+	background: #fff;
+	border-radius: 20px;
+	margin: 50px auto;
+	flex-wrap: wrap;
+}
+
+.shadow {
+	box-shadow: 0 6px 20px #333;
+}
+
+.rounded {
+	border-radius: 50%;
+}
+
+header {
+	width: 270px;
+	margin-right: 20px;
+	border-right: 1px solid #d2a700;
+}
+
+header * {
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+}
+
+div.footer {
+  text-align: center;
+  font-size: 0.8em;
+  text-shadow: 0px 1px 3px #cccccc; 
+}
+
+img.portrait {
+	max-width: 200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	
+}
+
+ul li {
+	padding: 5px 0;
+	text-align: left;
+}
+
+#intro {
+	max-width: 250px;
+}
+
+#content {
+	width: calc(100% - 295px);
+}
+
+.alignleft {
+	float: left;
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+li .material-icons{
+    padding-right: 12px;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.card {
+	display: block;
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.project:after {
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+/* Responzivní přepis */
+@media (max-width: 900px) {
+	
+}
