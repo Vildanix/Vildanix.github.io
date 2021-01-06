@@ -8,6 +8,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300;1,600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src='scripts/jquery.photobox.js'></script>
 </head>
 <body>
     <article id="main" class="shadow">
@@ -49,7 +51,7 @@
 			</header>
 			<section id="content">
 				<h2>Vizualizace</h2>
-				<div class="project">
+				<div class="project gallery">
 					<h3>Návrhy svítidel a skleněných stolů</h3>
 					<p>
 						<a href="/images/rendery/studio-produkty/tube.jpg"><img src="/images/rendery/studio-produkty/tube_prev.jpg" alt="Náhled vizualizace produktu svítidla" class="alignleft" width="300" height="300"></a>
@@ -58,7 +60,7 @@
 						<a href="/images/rendery/studio-produkty/table_coral.jpg"><img src="/images/rendery/studio-produkty/table_coral_prev.jpg" alt="Náhled vizualizace produktu stolu" class="alignleft" width="300" height="300"></a>
 					</p>
 				</div>
-				<div class="project">
+				<div class="project gallery">
 					<h3>Koncept využití skleněných panelů ve schodišti</h3>
 					<p>
 						<a href="/images/rendery/studie-schodiste/schodiste_bubbles_bottom.jpg"><img src="/images/rendery/studie-schodiste/schodiste_bubbles_bottom_prev.jpg" alt="Náhled schodiště s bublinama" class="alignleft" width="300" height="300"></a>
@@ -72,11 +74,23 @@
 						<a href="/images/rendery/studie-schodiste/schodiste_panel_oblouk_05.jpg"><img src="/images/rendery/studie-schodiste/schodiste_panel_oblouk_05_prev.jpg" alt="Náhled schodiště s brusem" class="alignleft" width="300" height="300"></a>
 					</p>
 				</div>
+				<div class="project gallery">
+					<h3>Koncept využití skleněných panelů v koupelně</h3>
+					<p>
+						<a href="/images/rendery/studie-koupelna/diamond_line_silver.jpg"><img src="/images/rendery/studie-koupelna/diamond_line_silver_prev.jpg" alt="Náhled koupelny se skleněnými panely" class="alignleft" width="300" height="300"></a>
+						<a href="/images/rendery/studie-koupelna/diamond_mirror_silver.jpg"><img src="/images/rendery/studie-koupelna/diamond_mirror_silver_prev.jpg" alt="Náhled koupelny se skleněnými panely" class="alignleft" width="300" height="300"></a>
+						<a href="/images/rendery/studie-koupelna/diamond_wall_silver.jpg"><img src="/images/rendery/studie-koupelna/diamond_wall_silver_prev.jpg" alt="Náhled koupelny se skleněnými panely" class="alignleft" width="300" height="300"></a>
+						<a href="/images/rendery/studie-koupelna/stoneway_line_gold_shaped.jpg"><img src="/images/rendery/studie-koupelna/stoneway_line_gold_shaped_prev.jpg" alt="Náhled koupelny se skleněnými panely" class="alignleft" width="300" height="300"></a>
+					</p>
+				</div>
 			</section>
 			<footer>
 					<div class="footer">
 							<p>&copy; Stanislav Tvrzník, 2020-2021</p>
 					</div>
+					<script>
+						$('#content').photobox('a',{ time:0 });
+					</script>
 			</footer>
     </article>
 </body>
