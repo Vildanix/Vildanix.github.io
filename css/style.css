@@ -59,7 +59,8 @@ footer {
 div.footer {
   text-align: center;
   font-size: 0.8em;
-  text-shadow: 0px 1px 3px #cccccc; 
+  text-shadow: 0px 1px 3px #cccccc;
+	padding-top: 20px;
 }
 
 img.portrait {
@@ -113,11 +114,21 @@ li .material-icons{
 	margin: 5px;
 }
 
+.project {
+	margin: 0 auto 30px;
+}
+
 .project:after {
 	content: '';
 	display: block;
 	width: 100%;
 	clear: both;
+}
+
+.gallery img {
+	max-width: calc(33% - 10px);
+	height: auto;
+	margin: 10px 10px 0 0;
 }
 
 /* Responzivní přepis */

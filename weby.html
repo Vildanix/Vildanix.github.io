@@ -8,6 +8,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300;1,600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src='/scripts/jquery.photobox.js'></script>
 </head>
 <body>
     <article id="main" class="shadow">
@@ -81,6 +83,9 @@
 					<div class="footer">
 							<p>&copy; Stanislav Tvrzník, 2020-2021</p>
 					</div>
+					<script>
+						$('#content').photobox('a',{ time:0 });
+					</script>
 			</footer>
     </article>
 </body>
